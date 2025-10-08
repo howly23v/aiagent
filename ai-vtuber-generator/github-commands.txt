@@ -1,0 +1,11 @@
+# 1. Initialize Git
+git init
+git add .
+git commit -m "🎬 Initial commit: AI VTuber Generator with Gemini AI"
+
+# 2. Connect to GitHub (change YOUR_USERNAME)
+git remote add origin https://github.com/YOUR_USERNAME/ai-vtuber-generator.git
+git branch -M main
+git push -u origin main
+
+# After pushing, connect the repository to Railway/Render/Heroku and set the GEMINI_API_KEY environment variable.
